@@ -513,3 +513,4 @@ content = "%{T3}%{T-}"
 content-font = 6
 content-background = ${colors.red}
 content-foreground = ${colors.cyan}
+
