@@ -16,7 +16,7 @@ exec --no-startup-id feh --bg-fill ~/Pictures/wallpapers/wal.jpg
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec kitty
+bindsym $mod+Return exec alacritty
 
 # kill focused window
 bindsym $mod+Shift+q kill
