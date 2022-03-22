@@ -12,6 +12,7 @@ call plug#begin()
 	Plug 'https://github.com/tpope/vim-speeddating'
 	Plug 'https://github.com/bronson/vim-trailing-whitespace'
 	Plug 'https://github.com/dracula/vim.git'
+	Plugin 'jiangmiao/auto-pairs'
 	
 	" Neovim LSP
 	Plug 'https://github.com/neovim/nvim-lspconfig'
