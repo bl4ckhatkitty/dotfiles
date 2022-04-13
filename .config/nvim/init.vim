@@ -11,9 +11,9 @@ call plug#begin()
 	Plug 'https://github.com/tpope/vim-repeat'
 	Plug 'https://github.com/tpope/vim-speeddating'
 	Plug 'https://github.com/bronson/vim-trailing-whitespace'
-	Plug 'https://github.com/dracula/vim.git'
+	Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 	Plug 'jiangmiao/auto-pairs'
-	
+
 	" Neovim LSP
 	Plug 'https://github.com/neovim/nvim-lspconfig'
 	Plug 'https://github.com/hrsh7th/nvim-cmp'
@@ -27,9 +27,8 @@ call plug#end()
 "
 " Colorseme
 "
-
-syntax enable
-colorscheme dracula
+let g:tokyonight_style = "night"
+colorscheme tokyonight
 
 
 "
@@ -71,7 +70,7 @@ let g:python_host_prog = '/usr/bin/python2'
 " Lightline - statusline
 set noshowmode
 let g:lightline = {
-	\ 'colorscheme': 'dracula',
+	\ 'colorscheme': 'tokyonight',
 	\ 'active': {
 	\ 'left': [  [ 'mode' ],
 	\            [ 'readonly', 'filename', 'gitbranch' ],
