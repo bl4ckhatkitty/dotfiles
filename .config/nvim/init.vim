@@ -13,8 +13,7 @@ call plug#begin()
 	Plug 'https://github.com/bronson/vim-trailing-whitespace'
 	Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 	Plug 'jiangmiao/auto-pairs'
-
-	" Neovim LSP
+	Plug 'https://github.com/ap/vim-css-color.git'
 	Plug 'https://github.com/neovim/nvim-lspconfig'
 	Plug 'https://github.com/hrsh7th/nvim-cmp'
 		Plug 'https://github.com/hrsh7th/cmp-nvim-lsp'
