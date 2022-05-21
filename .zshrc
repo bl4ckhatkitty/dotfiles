@@ -6,4 +6,4 @@ plugins=(git encode64 httpie nmap pip systemd web-search archlinux)
 
 source $ZSH/oh-my-zsh.sh
 
-export EDITOR=nvim
+export EDITOR=vim
